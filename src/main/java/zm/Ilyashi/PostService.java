@@ -74,7 +74,7 @@ public class PostService {
         postRepository.delete(post);
     }
 
-    private PostResponseDto convertToDto(Post post) {
+    public PostResponseDto convertToDto(Post post) {
         String authorName = post.isAnonymous() ? "Anonymous" : post.getAuthor().getAlias();
 
         return new PostResponseDto(
