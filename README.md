@@ -4,7 +4,7 @@
 
 ---
 
-**Ilyashi** is a Bemba word meaning *“voice”* or *“word.”*  
+**Ilyashi** is a Bemba word meaning *“story.”*  
 This project is a backend API designed to power a blogging platform where users have complete control over their identity, empowering them to share their voice freely.  
 
 It’s built on the principle that a user should be able to maintain a consistent public identity (a pseudonym) or post with complete anonymity, on a per-post basis.
