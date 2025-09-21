@@ -1,6 +1,5 @@
-package zm.Ilyashi;
+package zm.Ilyashi.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import zm.Ilyashi.PostStatus;
@@ -17,4 +16,7 @@ private PostStatus status;
 private LocalDateTime createdAt;
 
 private String authorName;
+
+    public PostResponseDto(Long id, String title, String content, PostStatus status, LocalDateTime createdAt, String authorName) {
+    }
 }

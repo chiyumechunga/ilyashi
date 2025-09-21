@@ -35,3 +35,102 @@ out/
 
 ### VS Code ###
 .vscode/
+# ====================
+# Gradle
+# ====================
+.gradle/
+
+# Optional: ignore downloaded wrapper distributions
+# gradle/wrapper/gradle-wrapper-*.zip
+
+# ====================
+# IntelliJ IDEA
+# ====================
+# User-specific settings (safe to ignore)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/remote-targets.xml
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/libraries/
+.idea/shelf/
+.idea/sonarlint/
+.idea/encodings.xml
+.idea/dictionaries/
+.idea/inspectionProfiles/profiles_settings.xml
+
+# Sensitive or machine-specific
+.idea/runConfigurations/*.xml     # Optional: ignore if configs contain local paths
+# Uncomment below if you want to share run configs (recommended for teams):
+# !.idea/runConfigurations/
+
+
+# ====================
+# Logs & Temporary Files
+# ====================
+*.log
+logs/
+!*.log.keep
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+# ====================
+# OS Generated
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ====================
+# Local Config & Secrets
+# ====================
+application-local.yml
+application-dev.yml
+application-prod.yml
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+.env
+.env.local
+.env.*.local
+secrets/
+config/
+
+# ====================
+# Java & Build Artifacts
+# ====================
+*.class
+target/           # Maven fallback (just in case)
+out/              # IntelliJ may generate this
+
+# ====================
+# Test & Coverage
+# ====================
+jacoco/
+coverage/
+*.exec
+
+# ====================
+# Other Tools
+# ====================
+# Lombok
+lombok.config
+
+# JRebel
+rebel.xml
+
+
+
+# NetBeans / Eclipse (optional ignores)
+.settings/
+
+nbproject/private/
